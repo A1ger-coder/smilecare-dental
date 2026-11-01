@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmileCare Dental Clinic — Modern Dentistry for a Brighter Smile</title>
+  <meta name="description" content="SmileCare Dental Clinic offers expert, gentle dentistry. Book an appointment online today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Preloader ===== -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="tooth-loader">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#0e9f8a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5.5c-1.5-1.5-4-2-6-1-2 1-2.5 4-2.5 6.5.1 3.5 2 5.5 3.5 7.5 1 1.3 2 2 3.5 2s2.5-.7 3.5-2c1.5-2 3.4-4 3.5-7.5 0-2.5-.5-5.5-2.5-6.5-2-1-4.5-.5-6 1z"/>
+        <path d="M9.5 6.5c1.2.4 2.2 1.3 2.5 2.5"/>
+      </svg>
+      <span>SmileCare</span>
+    </div>
+  </div>
+
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand" aria-label="SmileCare home">
+        <span class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5.5c-1.5-1.5-4-2-6-1-2 1-2.5 4-2.5 6.5.1 3.5 2 5.5 3.5 7.5 1 1.3 2 2 3.5 2s2.5-.7 3.5-2c1.5-2 3.4-4 3.5-7.5 0-2.5-.5-5.5-2.5-6.5-2-1-4.5-.5-6 1z"/>
+          </svg>
+        </span>
+        <span class="brand-name">Smile<span>Care</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#appointment" class="btn btn-primary btn-sm nav-cta">Book Now</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="float-tooth float-tooth-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 5.5c-1.5-1.5-4-2-6-1-2 1-2.5 4-2.5 6.5.1 3.5 2 5.5 3.5 7.5 1 1.3 2 2 3.5 2s2.5-.7 3.5-2c1.5-2 3.4-4 3.5-7.5 0-2.5-.5-5.5-2.5-6.5-2-1-4.5-.5-6 1z"/>
+        </svg>
+      </div>
+      <div class="float-tooth float-tooth-2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 5.5c-1.5-1.5-4-2-6-1-2 1-2.5 4-2.5 6.5.1 3.5 2 5.5 3.5 7.5 1 1.3 2 2 3.5 2s2.5-.7 3.5-2c1.5-2 3.4-4 3.5-7.5 0-2.5-.5-5.5-2.5-6.5-2-1-4.5-.5-6 1z"/>
+        </svg>
+      </div>
+      <div class="float-cross float-cross-1">+</div>
+      <div class="float-cross float-cross-2">+</div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="badge reveal">🦷 Accepting new patients</span>
+        <h1 class="hero-title">
+          <span class="reveal" style="--d:.05s">Your Best Smile</span>
+          <span class="reveal highlight" style="--d:.15s">Starts Here</span>
+        </h1>
+        <p class="hero-sub reveal" style="--d:.25s">
+          Gentle, modern and affordable dentistry for the whole family.
+          From routine cleanings to cosmetic makeovers — we make every visit comfortable.
+        </p>
+        <div class="hero-actions reveal" style="--d:.35s">
+          <a href="#appointment" class="btn btn-primary">Book an Appointment</a>
+          <a href="#services" class="btn btn-ghost">Explore Services</a>
+        </div>
+        <ul class="hero-points reveal" style="--d:.45s">
+          <li><span class="check">✓</span> 20+ years of care</li>
+          <li><span class="check">✓</span> Insurance welcome</li>
+          <li><span class="check">✓</span> Same-day appointments</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual reveal" style="--d:.25s">
+        <div class="hero-card main-card">
+          <div class="card-top">
+            <span class="pulse-dot"></span>
+            <span class="live-label">Live dentistry dashboard</span>
+          </div>
+          <div class="big-emoji">🦷</div>
+          <h3>Rating: 4.9/5</h3>
+          <div class="stars">★★★★★</div>
+          <p>"The most painless visit of my life. Dr. Lee is amazing!"</p>
+          <div class="card-footer">
+            <span class="avatar">AR</span>
+            <div>
+              <strong>Amara R.</strong>
+              <small>Verified patient</small>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card mini-card mini-card-1">
+          <span class="mini-icon">😁</span>
+          <div><strong>1,200+</strong><small>Smiles improved</small></div>
+        </div>
+        <div class="hero-card mini-card mini-card-2">
+          <span class="mini-icon">⏱️</span>
+          <div><strong>0 min</strong><small>wait time avg.</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+        <path d="M0,50 C240,90 480,10 720,40 C960,70 1200,20 1440,50 L1440,100 L0,100 Z" fill="#f6fbfa"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== Stats ===== -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat reveal">
+        <div class="stat-num" data-count="12000" data-suffix="+">0</div>
+        <p>Patients treated</p>
+      </div>
+      <div class="stat reveal" style="--d:.1s">
+        <div class="stat-num" data-count="20" data-suffix="+">0</div>
+        <p>Years of excellence</p>
+      </div>
+      <div class="stat reveal" style="--d:.2s">
+        <div class="stat-num" data-count="8" data-suffix="">0</div>
+        <p>Specialist doctors</p>
+      </div>
+      <div class="stat reveal" style="--d:.3s">
+        <div class="stat-num" data-count="98" data-suffix="%">0</div>
+        <p>Patient satisfaction</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow reveal">Our Treatments</span>
+        <h2 class="section-title reveal" style="--d:.1s">Comprehensive Care for Every Smile</h2>
+        <p class="section-sub reveal" style="--d:.2s">From preventive checkups to advanced cosmetic procedures, we've got you covered.</p>
+      </div>
+
+      <div class="filter-bar reveal" style="--d:.3s">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="preventive">Preventive</button>
+        <button class="filter-btn" data-filter="cosmetic">Cosmetic</button>
+        <button class="filter-btn" data-filter="restorative">Restorative</button>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+        <article class="service-card reveal" data-cat="preventive">
+          <div class="service-icon">🪥</div>
+          <h3>Teeth Cleaning</h3>
+          <p>Professional scaling and polishing to remove plaque and tartar for healthy gums.</p>
+          <a href="#appointment" class="service-link">Book →
+</a>
+        </article>
+
+        <article class="service-card reveal" data-cat="cosmetic" style="--d:.1s">
+          <div class="service-icon">✨</div>
+          <h3>Teeth Whitening</h3>
+          <p>Safe, in-office whitening that brightens your smile by several shades in one visit.</p>
+          <a href="#appointment" class="service-link">Book →
+</a>
+        </article>
+
+        <article class="service-card reveal" data-cat="restorative" style="--d:.2s">
+          <div class="service-icon">🦷</div>
+          <h3>Dental Implants</h3>
+          <p>Permanent, natural-looking tooth replacements that restore full function and confidence.</p>
+          <a href="#appointment" class="service-link">Book →
+</a>
+        </article>
+
+        <article class="service-card reveal" data-cat="preventive" style="--d:.3s">
+          <div class="service-icon">🪞</div>
+          <h3>Dental Checkup</h3>
+          <p>Comprehensive exams with digital X-rays to catch issues before they become serious.</p>
+          <a href="#appointment" class="service-link">Book →
+</a>
+        </article>
+
+        <article class="service-card reveal" data-cat="cosmetic" style="--d:.4s">
+          <div class="service-icon">💎</div>
+          <h3>Veneers</h3>
+          <p>Custom porcelain veneers that correct chips, gaps and discoloration beautifully.</p>
+          <a href="#appointment" class="service-link">Book →
+</a>
+        </article>
+
+        <article class="service-card reveal" data-cat="restorative" style="--d:.5s">
+          <div class="service-icon">🦷</div>
+          <h3>Root Canal</h3>
+          <p>Comfortable, single-visit root canal therapy that saves your natural tooth.</p>
+          <a href="#appointment" class="service-link">Book →
+</a>
+        </article>
+
+        <article class="service-card reveal" data-cat="restorative" style="--d:.6s">
+          <div class="service-icon">🎯</div>
+          <h3>Dental Crowns</h3>
+          <p>Strong, tooth-colored crowns that restore damaged or weakened teeth.</p>
+          <a href="#appointment" class="service-link">Book →
+</a>
+        </article>
+
+        <article class="service-card reveal" data-cat="cosmetic" style="--d:.7s">
+          <div class="service-icon">🦷</div>
+          <h3>Orthodontics</h3>
+          <p>Clear aligners and braces to straighten teeth with discreet, modern options.</p>
+          <a href="#appointment" class="service-link">Book →
+</a>
+        </article>
+
+        <article class="service-card reveal" data-cat="preventive" style="--d:.8s">
+          <div class="service-icon">🧒</div>
+          <h3>Pediatric Dentistry</h3>
+          <p>Gentle, fun dental care designed to make kids love visiting the dentist.</p>
+          <a href="#appointment" class="service-link">Book →
+</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section about" id="about">
+    <div class="container about-inner">
+      <div class="about-visual reveal">
+        <div class="about-img">
+          <span class="img-emoji">🦷</span>
+          <span class="experience-badge">20+<small>Yrs Exp</small></span>
+        </div>
+        <div class="about-card">
+          <span class="about-icon">🏆</span>
+          <div>
+            <strong>Best Dental Clinic</strong>
+            <small>City Health Awards 2025</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <span class="eyebrow reveal">Why Choose Us</span>
+        <h2 class="section-title reveal" style="--d:.1s">Modern Dentistry with a Human Touch</h2>
+        <p class="reveal" style="--d:.2s">
+          At SmileCare, we believe going to the dentist shouldn't be scary.
+          Our state-of-the-art clinic combines advanced technology with a warm,
+          welcoming environment.
+        </p>
+        <ul class="about-list">
+          <li class="reveal" style="--d:.25s">
+            <span class="li-icon">🩺</span>
+            <div><strong>Advanced Technology</strong><p>3D imaging, laser dentistry and digital impressions.</p></div>
+          </li>
+          <li class="reveal" style="--d:.35s">
+            <span class="li-icon">😊</span>
+            <div><strong>Gentle, Pain-free</strong><p>Comfort-first approach with sedation options available.</p></div>
+          </li>
+          <li class="reveal" style="--d:.45s">
+            <span class="li-icon">💲</span>
+            <div><strong>Transparent Pricing</strong><p>Clear estimates and easy payment plans for every budget.</p></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Team ===== -->
+  <section class="section team" id="team">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow reveal">Meet Our Specialists</span>
+        <h2 class="section-title reveal" style="--d:.1s">Doctors You Can Trust</h2>
+        <p class="section-sub reveal" style="--d:.2s">A caring team of experts dedicated to your oral health.</p>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-card reveal">
+          <div class="team-avatar avatar-1">DL</div>
+          <h3>Dr. David Lee</h3>
+          <span class="team-role">Orthodontist</span>
+          <p>15+ years specializing in braces and clear aligners.</p>
+        </div>
+        <div class="team-card reveal" style="--d:.1s">
+          <div class="team-avatar avatar-2">SP</div>
+          <h3>Dr. Sarah Patel</h3>
+          <span class="team-role">Cosmetic Dentist</span>
+          <p>Award-winning smile makeovers and veneers.</p>
+        </div>
+        <div class="team-card reveal" style="--d:.2s">
+          <div class="team-avatar avatar-3">JG</div>
+          <h3>Dr. James Gordon</h3>
+          <span class="team-role">Oral Surgeon</span>
+          <p>Expert in implants and complex surgical procedures.</p>
+        </div>
+        <div class="team-card reveal" style="--d:.3s">
+          <div class="team-avatar avatar-4">MN</div>
+          <h3>Dr. Maria Nguyen</h3>
+          <span class="team-role">Pediatric Dentist</span>
+          <p>Making kids' dental visits fun since 2012.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow reveal">Testimonials</span>
+        <h2 class="section-title reveal" style="--d:.1s">Loved by Our Patients</h2>
+      </div>
+
+      <div class="slider reveal" style="--d:.2s">
+        <div class="slides" id="slides">
+          <div class="slide active">
+            <div class="quote-mark">"</div>
+            <p>I was terrified of the dentist for years. The team at SmileCare completely changed that. I actually look forward to my checkups now!</p>
+            <div class="slide-author">
+              <span class="avatar">AR</span>
+              <div><strong>Amara R.</strong><small>Verified patient</small></div>
+              <span class="stars">★★★★★</span>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="quote-mark">"</div>
+            <p>Got my veneers done here and the results are incredible. Dr. Patel understood exactly what I wanted. Worth every penny.</p>
+            <div class="slide-author">
+              <span class="avatar">JK</span>
+              <div><strong>James K.</strong><small>Verified patient</small></div>
+              <span class="stars">★★★★★</span>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="quote-mark">"</div>
+            <p>My daughter actually asks to visit the dentist now! Dr. Nguyen is amazing with kids. Highly recommend for families.</p>
+            <div class="slide-author">
+              <span class="avatar">LW</span>
+              <div><strong>Lisa W.</strong><small>Verified patient</small></div>
+              <span class="stars">★★★★★</span>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevSlide" aria-label="Previous slide">←</button>
+          <div class="dots" id="dots"></div>
+          <button class="slider-btn" id="nextSlide" aria-label="Next slide">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Appointment / Contact ===== -->
+  <section class="section appointment" id="appointment">
+    <div class="container appointment-inner">
+      <div class="appointment-info reveal">
+        <span class="eyebrow">Book a Visit</span>
+        <h2 class="section-title">Schedule Your Appointment</h2>
+        <p>Fill out the form and we'll confirm your visit within a few hours. Same-day appointments available for emergencies.</p>
+        <div class="info-rows">
+          <div class="info-row"><span class="info-icon">📞</span><div><strong>Call us</strong><span>+1 (555) 234-5678</span></div></div>
+          <div class="info-row"><span class="info-icon">✉️</span><div><strong>Email</strong><span>hello@smilecare.com</span></div></div>
+          <div class="info-row"><span class="info-icon">📍</span><div><strong>Visit</strong><span>245 Wellness Avenue, Suite 100, Springfield</span></div></div>
+          <div class="info-row"><span class="info-icon">🕘</span><div><strong>Hours</strong><span>Mon–Sat: 9:00 AM – 6:00 PM</span></div></div>
+        </div>
+      </div>
+
+      <form class="appointment-form reveal" id="appointmentForm" style="--d:.2s" novalidate>
+        <h3>Book Your Visit</h3>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="fName">Full Name *</label>
+            <input type="text" id="fName" name="name" placeholder="e.g. Jane Doe" required />
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="fEmail">Email *</label>
+            <input type="email" id="fEmail" name="email" placeholder="you@email.com" required />
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="fPhone">Phone *</label>
+            <input type="tel" id="fPhone" name="phone" placeholder="+1 (555) 000-0000" required />
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="fService">Service</label>
+            <select id="fService" name="service">
+              <option>Teeth Cleaning</option>
+              <option>Teeth Whitening</option>
+              <option>Dental Implants</option>
+              <option>Veneers</option>
+              <option>Root Canal</option>
+              <option>Orthodontics</option>
+              <option>Checkup / Exam</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fDate">Preferred Date *</label>
+            <input type="date" id="fDate" name="date" required />
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="fTime">Preferred Time</label>
+            <select id="fTime" name="time">
+              <option>Morning (9–12)</option>
+              <option>Afternoon (12–3)</option>
+              <option>Evening (3–6)</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="fNotes">Notes (optional)</label>
+          <textarea id="fNotes" name="notes" rows="3" placeholder="Tell us anything we should know..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Confirm Appointment →</button>
+        <div class="form-success" id="formSuccess">
+          <span class="success-icon">✓</span>
+          <strong>Thank you!</strong>
+          <p>Your appointment request has been received. We'll confirm shortly.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section faq" id="faq">
+    <div class="container faq-inner">
+      <div class="section-head">
+        <span class="eyebrow reveal">FAQ</span>
+        <h2 class="section-title reveal" style="--d:.1s">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is the clinic open on weekends?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><p>Yes! We're open Monday through Saturday from 9:00 AM to 6:00 PM. We also offer limited Sunday hours for emergencies.</p></div>
+        </div>
+        <div class="faq-item reveal" style="--d:.1s">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you accept dental insurance?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><p>Absolutely. We work with most major insurance providers and our team will help you maximize your benefits. We also offer flexible payment plans.</p></div>
+        </div>
+        <div class="faq-item reveal" style="--d:.2s">
+          <button class="faq-question" aria-expanded="false">
+            <span>How often should I get a checkup?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><p>We recommend a checkup and cleaning every six months. However, your dentist may suggest a different schedule based on your oral health.</p></div>
+        </div>
+        <div class="faq-item reveal" style="--d:.3s">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you offer sedation for anxious patients?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><p>Yes. We offer several sedation options, from laughing gas to oral sedation, to make your visit as comfortable and stress-free as possible.</p></div>
+        </div>
+        <div class="faq-item reveal" style="--d:.4s">
+          <button class="faq-question" aria-expanded="false">
+            <span>What if I have a dental emergency?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><p>Call us immediately. We reserve same-day emergency slots and can often see you within hours. For after-hours emergencies, follow the voicemail instructions.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand footer-brand-link">
+          <span class="brand-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5.5c-1.5-1.5-4-2-6-1-2 1-2.5 4-2.5 6.5.1 3.5 2 5.5 3.5 7.5 1 1.3 2 2 3.5 2s2.5-.7 3.5-2c1.5-2 3.4-4 3.5-7.5 0-2.5-.5-5.5-2.5-6.5-2-1-4.5-.5-6 1z"/></svg></span>
+          <span class="brand-name">Smile<span>Care</span></span>
+        </a>
+        <p>Modern, gentle dentistry for the whole family. Smile with confidence.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook" class="social-link">f</a>
+          <a href="#" aria-label="Instagram" class="social-link">◎</a>
+          <a href="#" aria-label="Twitter" class="social-link">𝕏</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Teeth Cleaning</a></li>
+          <li><a href="#services">Whitening</a></li>
+          <li><a href="#services">Implants</a></li>
+          <li><a href="#services">Veneers</a></li>
+          <li><a href="#services">Orthodontics</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>245 Wellness Avenue, Springfield</li>
+          <li>+1 (555) 234-5678</li>
+          <li>hello@smilecare.com</li>
+          <li>Mon–Sat: 9AM–6PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 SmileCare Dental Clinic. All rights reserved.</p>
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
